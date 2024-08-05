@@ -10,3 +10,5 @@ for (let i = 1; i <= input / 4; i++) {
 
 str += "int";
 console.log(str);
+
+// const longs = new Array(bytes / 4).fill("long").join(" ") // 배열 만들어서 더하기
