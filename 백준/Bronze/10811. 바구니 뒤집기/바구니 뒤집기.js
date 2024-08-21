@@ -22,3 +22,14 @@ for (let k = 0; k < M; k++) {
 }
 
 console.log(basket.join(" "));
+
+// const [N, M] = input[0].split(" ").map(Number);
+// let array = Array(N).fill().map((_, i) => i + 1);
+
+// for (let s = 1; s < input.length; s++) {
+//   const [i, j] = input[s].split(" ").map(Number);
+//   const reversed = array.slice(i - 1, j).reverse();
+//   array.splice(i - 1, j - i + 1, ...reversed); // splice로 같이 붙여주면 되구나..
+// }
+
+// console.log(array.join(" "));
