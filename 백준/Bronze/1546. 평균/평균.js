@@ -10,3 +10,6 @@ const score = input[0]
 console.log(
   score.map((ele) => (ele / score[0]) * 100).reduce((a, b) => a + b) / N
 );
+
+// 이렇게 리듀스 하나로 해결하고 싶었다.
+// const avg = arr.reduce((sum, value) => sum + (value / M * 100), 0) / N;
