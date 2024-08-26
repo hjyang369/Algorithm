@@ -10,3 +10,10 @@ for (let i = 0; i < str.length; i++) {
   }
 }
 console.log(num);
+
+
+// replace로 바꾸고 글자 수 세기!! 이런방법이..!
+// const patterns = ["dz=", "z=", "s=", "c=", "c-", "d-", "lj", "nj"];
+// const result = patterns.reduce((acc, pattern) => acc.replaceAll(pattern, "*"), input);
+
+// console.log(result.length);
