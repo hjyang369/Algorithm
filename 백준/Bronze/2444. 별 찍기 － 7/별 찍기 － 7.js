@@ -11,9 +11,6 @@ for (let i = 1; i <= input; i++) {
   for (let k = 1; k <= 2 * i - 1; k++) {
     str += "*";
   }
-  // for (let m = i; m <= input - 1; m++) {
-  //   str += " ";
-  // }
   result.push(str);
 }
 
@@ -25,9 +22,6 @@ for (let i = input - 1; i >= 1; i--) {
   for (let k = 2 * i - 1; k >= 1; k--) {
     str += "*";
   }
-  // for (let m = input - 1; m >= i; m--) {
-  //   str += " ";
-  // }
   result.push(str);
 }
 
